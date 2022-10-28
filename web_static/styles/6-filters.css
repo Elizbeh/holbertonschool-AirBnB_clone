@@ -49,6 +49,7 @@
     font-size: 14px;
     margin-left: 40px;
     margin-top: 0;
+    line-height: 1.5rem;
 }
 
 ul {
@@ -86,4 +87,8 @@ ul {
 
 .amenities:hover .popover {
     display: block;
+}
+
+.popover li {
+    line-height: 1.5rem;
 }
