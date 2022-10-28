@@ -8,5 +8,5 @@ footer {
     justify-content: center;
     bottom: 0;
     box-sizing: border-box;
-    position: absolute;
+    position: fixed;
 }
