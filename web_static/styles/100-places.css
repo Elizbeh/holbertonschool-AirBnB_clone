@@ -1,0 +1,134 @@
+.places h1 {
+    font-size: 30px;
+}
+
+.places article {
+    width: 390px;
+    padding: 20px;
+    margin: 20px;
+    border: #FF5A5F 1px solid;
+    border-radius: 4px;
+}
+
+.places h2 {
+    font-size: 30px;
+    text-align: center;
+    margin: 0;
+}
+
+.box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.price_by_night {
+    color: #FF5A5F;
+    border: #FF5A5F solid 4px;
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    border-radius: 50%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.information {
+    height: 80px;
+    border-top: #DDDDDD solid 1px;
+    border-bottom: #DDDDDD 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.max_guest,
+.number_rooms,
+.number_bathrooms {
+    width: 100px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.max_guest {
+    background-image: url(../images/icon_group.png);
+}
+
+.number_rooms {
+    background-image: url(../images/icon_bed.png);
+}
+
+.number_bathrooms {
+    background-image: url(../images/icon_bath.png);
+}
+
+.max_guest p,
+.number_bathrooms p,
+.number_rooms p {
+    margin-top: 55px;
+}
+
+.description {
+    text-align: left;
+}
+
+.wiifii {
+    background-image: url(../images/icon_wifi.png);
+}
+
+.television {
+    background-image: url(../images/icon_tv.png);
+}
+
+.pets {
+    background-image: url(../images/icon_pets.png);
+}
+
+.television,
+.wiifii,
+.pets {
+    height: 48px;
+    background-repeat: no-repeat;
+    display: flex;
+    background-size: 25px;
+}
+
+.television li,
+.wiifii li,
+.pets li {
+    margin-left: 50px;
+    margin-top: 5px;
+    padding-left: 25px;
+}
+
+.amenities2 h2,
+.reviews h2 {
+    border-bottom: #DDDDDD 1px solid;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.amenities2 ul,
+.reviews ul {
+    padding: 0;
+}
+
+.reviews h3 {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 4px;
+}
+
+.reviews p {
+    font-size: 12px;
+    text-align: left;
+    margin: 0;
+}
